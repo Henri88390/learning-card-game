@@ -1,0 +1,124 @@
+{
+    "food": [
+        {
+            "name": "kiełbasa",
+            "url": "media/kielbasa.jpeg"
+        },
+        {
+            "name": "sok",
+            "url": "media/sok.jpg"
+        },
+        {
+            "name": "masło",
+            "url": "media/maslo.jpg"
+        },
+        {
+            "name": "kapusta",
+            "url": "media/kapusta.jpeg"
+        },
+        {
+            "name": "piwo",
+            "url": "media/piwo.jpg"
+        },
+        {
+            "name": "ryz",
+            "url": "media/ryz.webp"
+        },
+        {
+            "name": "woda",
+            "url": "media/woda.jpg"
+        },
+        {
+            "name": "cukier",
+            "url": "media/cukier.jpg"
+        },
+        {
+            "name": "kurczak",
+            "url": "media/kurczak.webp"
+        },
+        {
+            "name": "wino",
+            "url": "media/wino.jpg"
+        },
+        {
+            "name": "chleb",
+            "url": "media/chleb.png"
+        },
+        {
+            "name": "jabłko",
+            "url": "media/jablko.webp"
+        },
+        {
+            "name": "ciastko",
+            "url": "media/ciastko.png"
+        },
+        {
+            "name": "cebula",
+            "url": "media/cebula.jpg"
+        },
+        {
+            "name": "ryba",
+            "url": "media/ryba.jpg"
+        },
+        {
+            "name": "bułka",
+            "url": "media/bulka.png"
+        },
+        {
+            "name": "dzem",
+            "url": "media/dzem.jpg"
+        },
+        {
+            "name": "ser",
+            "url": "media/ser.jpg"
+        },
+        {
+            "name": "mleko",
+            "url": "media/mleko.jpg"
+        },
+        {
+            "name": "kawa",
+            "url": "media/kawa.jpg"
+        },
+        {
+            "name": "makaron",
+            "url": "media/makaron.webp"
+        },
+        {
+            "name": "cytryna",
+            "url": "media/cytryna.jpeg"
+        },
+        {
+            "name": "herbata",
+            "url": "media/herbata.jpeg"
+        },
+        {
+            "name": "szynka",
+            "url": "media/szynka.jpg"
+        },
+        {
+            "name": "banany",
+            "url": "media/banany.jpg"
+        },
+        {
+            "name": "loby",
+            "url": "media/loby.png"
+        },
+        {
+            "name": "pomidory",
+            "url": "media/pomidory.jpg"
+        },
+        {
+            "name": "jajka",
+            "url": "media/jajka.jpg"
+        },
+        {
+            "name": "ogorki",
+            "url": "media/ogorki.jpg"
+        },
+        {
+            "name": "ziemniaki",
+            "url": "media/ziemniaki.jpg"
+        }
+    ]
+}
