@@ -121,7 +121,7 @@ export function Home() {
             {!unplayedCards.isEmpty() ? (
               <img
                 className="game-card-container"
-                src="media/card-back.jpg"
+                src={process.env.PUBLIC_URL + "media/card-back.jpg"}
                 alt="deck"
                 onClick={drawCard}
                 loading="lazy"
@@ -134,12 +134,11 @@ export function Home() {
                 <div className="game-card-container">
                   <img
                     className="game-card-container"
-                    src="media/card-front.jpg"
+                    src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
                     alt="Card front"
                     onClick={() =>
                       setViewAnswer((prevViewAnswer) => !prevViewAnswer)
                     }
-                    loading="lazy"
                   />
                   {!playedCards.peek().url.includes(".") ? (
                     <div
@@ -153,12 +152,13 @@ export function Home() {
                   ) : (
                     <img
                       className="game-card-img"
-                      src={playedCards.peek().url}
+                      src={
+                        process.env.PUBLIC_URL + "/" + playedCards.peek().url
+                      }
                       alt={playedCards.peek().url}
                       onClick={() =>
                         setViewAnswer((prevViewAnswer) => !prevViewAnswer)
                       }
-                      loading="lazy"
                     />
                   )}
                 </div>
