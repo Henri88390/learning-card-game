@@ -1,15 +1,14 @@
 .theme-card-container {
   border: 1px solid black;
-  width: 100px;
+  width: auto;
   height: 30px;
-  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: transform 0.2s;
 }
 
 .theme-card-container:hover {
-  transform: scale(1.1);
+  background: rgb(86, 86, 235);
+  color: white;
 }

@@ -91,14 +91,9 @@ export function Home() {
 
   return (
     <div className="home-container">
-      <div className="home-header"></div>
       <div className="home-menu">
         {themes.map((theme) => (
-          <div
-            key={theme}
-            className="home-theme"
-            onClick={() => handleThemeClick(theme)}
-          >
+          <div key={theme} onClick={() => handleThemeClick(theme)}>
             <ThemeCard key={theme} name={theme} />
           </div>
         ))}
@@ -106,18 +101,18 @@ export function Home() {
       <div className="home-current-category">{currentTheme}</div>
       {!cards.isEmpty() && (
         <div className="home-game-container">
-          <button
-            disabled={playedCards.isEmpty()}
-            className="game-button"
-            onClick={undo}
-          >
-            Previous card
-          </button>
+          <div className="home-game-header">
+            <button className="game-button" onClick={shuffleCards2}>
+              Shuffle
+            </button>
+            {!playedCards.isEmpty() && (
+              <button className="game-button" onClick={undo}>
+                Previous card
+              </button>
+            )}
+          </div>
 
-          <button className="game-button" onClick={shuffleCards2}>
-            Shuffle
-          </button>
-          <div className="cards">
+          <div className="home-game-cards">
             {!unplayedCards.isEmpty() ? (
               <img
                 className="game-card-container"
@@ -163,11 +158,11 @@ export function Home() {
                   )}
                 </div>
               )}
-              {viewAnswer && !playedCards.isEmpty() && (
-                <div className="polish-answer">{playedCards.peek().name}</div>
-              )}
             </div>
           </div>
+          {viewAnswer && !playedCards.isEmpty() && (
+            <div className="home-game-answer">{playedCards.peek().name}</div>
+          )}
         </div>
       )}
     </div>

@@ -1,6 +1,9 @@
 {
     "Numbers": [
         {
+            "name": "zero"
+        },
+        {
             "name": "jedem"
         },
         {
@@ -25,7 +28,10 @@
             "name": "osiem"
         },
         {
-            "name": "dziewięc"
+            "name": "dziewięć"
+        },
+        {
+            "name": "dziesięć"
         },
         {
             "name": "jedemnaście"
@@ -53,9 +59,6 @@
         },
         {
             "name": "dziewięcnasćie"
-        },
-        {
-            "name": "dziesięcnasćie"
         },
         {
             "name": "dwadziesćia"
@@ -161,6 +164,9 @@
         },
         {
             "name": "pięćdziesiąt cztery"
+        },
+        {
+            "name": "pięćdziesiąt pięć"
         },
         {
             "name": "pięćdziesiąt szesc"
@@ -630,7 +636,7 @@
             "url": "media/colors/czarny.jpg"
         },
         {
-            "name": "bialy",
+            "name": "kolorowy",
             "url": "media/colors/kolorowy.jpg"
         }
     ],
@@ -712,7 +718,7 @@
             "url": "media/hobbies/siedziec-na-internecie.webp"
         },
         {
-            "name": "słuchac muzyki",
+            "name": "słuchać muzyki",
             "url": "media/hobbies/sluchac-muzyki.jpg"
         },
         {
