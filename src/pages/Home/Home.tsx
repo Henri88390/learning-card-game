@@ -117,6 +117,7 @@ export function Home() {
                 src="media/card-back.jpg"
                 alt="deck"
                 onClick={drawCard}
+                loading="lazy"
               />
             ) : (
               <div className="empty-card" onClick={shuffleCards2}></div>
@@ -131,6 +132,7 @@ export function Home() {
                     onClick={() =>
                       setViewAnswer((prevViewAnswer) => !prevViewAnswer)
                     }
+                    loading="lazy"
                   />
                   {!playedCards.peek().url.includes(".") ? (
                     <div
@@ -149,6 +151,7 @@ export function Home() {
                       onClick={() =>
                         setViewAnswer((prevViewAnswer) => !prevViewAnswer)
                       }
+                      loading="lazy"
                     />
                   )}
                 </div>
