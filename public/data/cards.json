@@ -633,5 +633,107 @@
             "name": "bialy",
             "url": "media/colors/kolorowy.jpg"
         }
+    ],
+    "Hobbies": [
+        {
+            "name": "biegać",
+            "url": "media/hobbies/biegac.jpg"
+        },
+        {
+            "name": "chodzić na imprezy",
+            "url": "media/hobbies/chodzic-na-imprezy.webp"
+        },
+        {
+            "name": "chodzić do kina",
+            "url": "media/hobbies/chodzic-do-kina.jpg"
+        },
+        {
+            "name": "chodzic do restauracji",
+            "url": "media/hobbies/chodzic-do-restauracji.jpg"
+        },
+        {
+            "name": "chodzić na fitness",
+            "url": "media/hobbies/chodzic-na-fitness.webp"
+        },
+        {
+            "name": "chodzić do teatru",
+            "url": "media/hobbies/chodzic-do-teatru.jpg"
+        },
+        {
+            "name": "czytać ksiązki",
+            "url": "media/hobbies/czytac-ksiazki.jpg"
+        },
+        {
+            "name": "gotować",
+            "url": "media/hobbies/gotowac.jpg"
+        },
+        {
+            "name": "grać w piłkę",
+            "url": "media/hobbies/grac-w-pilke.jpg"
+        },
+        {
+            "name": "grac w tenisa",
+            "url": "media/hobbies/grac-w-tenisa.jpg"
+        },
+        {
+            "name": "jezdzic na nartach",
+            "url": "media/hobbies/jezdzic-na-nartach.jpg"
+        },
+        {
+            "name": "jeżdzić na rowerze",
+            "url": "media/hobbies/jezdzic-na-rowerze.jpg"
+        },
+        {
+            "name": "malować",
+            "url": "media/hobbies/malowac.jpg"
+        },
+        {
+            "name": "oglądać telewizję",
+            "url": "media/hobbies/ogladac-telewizje.webp"
+        },
+        {
+            "name": "pływać",
+            "url": "media/hobbies/plywac.jpg"
+        },
+        {
+            "name": "podróżować",
+            "url": "media/hobbies/podrozowac.jpg"
+        },
+        {
+            "name": "robić zdjęcia",
+            "url": "media/hobbies/robic-zdjecia.jpg"
+        },
+        {
+            "name": "rysować",
+            "url": "media/hobbies/rysowac.jpg"
+        },
+        {
+            "name": "siedzieć na Internecie",
+            "url": "media/hobbies/siedziec-na-internecie.webp"
+        },
+        {
+            "name": "słuchac muzyki",
+            "url": "media/hobbies/sluchac-muzyki.jpg"
+        },
+        {
+            "name": "śpiewać",
+            "url": "media/hobbies/spiewac.jpg"
+        },
+        {
+            "name": "spotykać się z kolegami",
+            "url": "media/hobbies/spotykac-sie-z-kolegami.webp"
+        },
+        {
+            "name": "tańczyć",
+            "url": "media/hobbies/tanczyc.jpg"
+        },
+        {
+            "name": "upczyć się polskiego",
+            "url": "media/hobbies/upczyc-sie-polskiego.webp"
+        },
+        {
+            "name": "uprawiać sport",
+            "url": "media/hobbies/uprawiac-sport.webp"
+        }
     ]
 }
