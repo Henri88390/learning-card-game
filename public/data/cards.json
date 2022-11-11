@@ -525,5 +525,55 @@
             "name": "słonce",
             "url": "media/objects/autobus.png"
         }
+    ],
+    "Adjectives": [
+        {
+            "name": "gruby",
+            "url": "media/adjectives/gruby.webp"
+        },
+        {
+            "name": "brzydki",
+            "url": "media/adjectives/brzydki.jpg"
+        },
+        {
+            "name": "ładna",
+            "url": "media/adjectives/ladna.jpg"
+        },
+        {
+            "name": "młody",
+            "url": "media/adjectives/mlody.jpg"
+        },
+        {
+            "name": "przystojny",
+            "url": "media/adjectives/przystojny.jpg"
+        },
+        {
+            "name": "smutny",
+            "url": "media/adjectives/smutny.jpg"
+        },
+        {
+            "name": "średniego wzrotu",
+            "url": "media/adjectives/sredniego-wzrotu.jpg"
+        },
+        {
+            "name": "stary",
+            "url": "media/adjectives/stary.jpg"
+        },
+        {
+            "name": "szczupły",
+            "url": "media/adjectives/szczuply.jpg"
+        },
+        {
+            "name": "wesoły",
+            "url": "media/adjectives/wesoly.jpg"
+        },
+        {
+            "name": "wysoki",
+            "url": "media/adjectives/wysoki.webp"
+        },
+        {
+            "name": "wysportowany",
+            "url": "media/adjectives/wysportowany.webp"
+        }
     ]
 }
