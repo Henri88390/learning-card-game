@@ -11,7 +11,7 @@ export function Home() {
   const [cards, setCards] = useState(new Stack<Card>());
   const [playedCards, setPlayedCards] = useState(new Stack<Card>());
   const [unplayedCards, setUnplayedCards] = useState(new Stack<Card>());
-  const themes = ["Objects", "Food", "Numbers", "Adjectives"];
+  const themes = ["Objects", "Food", "Numbers", "Adjectives", "Colors"];
 
   useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);
 

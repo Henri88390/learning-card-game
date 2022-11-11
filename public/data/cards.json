@@ -575,5 +575,63 @@
             "name": "wysportowany",
             "url": "media/adjectives/wysportowany.webp"
         }
+    ],
+    "Colors": [
+        {
+            "name": "biały",
+            "url": "media/colors/bialy.png"
+        },
+        {
+            "name": "szary",
+            "url": "media/colors/szary.jpg"
+        },
+        {
+            "name": "srebrny",
+            "url": "media/colors/srebrny.webp"
+        },
+        {
+            "name": "żółty",
+            "url": "media/colors/zolty.jpg"
+        },
+        {
+            "name": "złoty",
+            "url": "media/colors/zloty.jpg"
+        },
+        {
+            "name": "pomarańczowy",
+            "url": "media/colors/pomaranczowy.jpg"
+        },
+        {
+            "name": "czerwony",
+            "url": "media/colors/czerwony.jpg"
+        },
+        {
+            "name": "róźowy",
+            "url": "media/colors/rozowy.jpg"
+        },
+        {
+            "name": "fioletowy",
+            "url": "media/colors/fioletowy.jpg"
+        },
+        {
+            "name": "niebieski",
+            "url": "media/colors/niebieski.jpg"
+        },
+        {
+            "name": "zielony",
+            "url": "media/colors/zielony.jpg"
+        },
+        {
+            "name": "brązowy",
+            "url": "media/colors/brazowy.jpg"
+        },
+        {
+            "name": "czarny",
+            "url": "media/colors/czarny.jpg"
+        },
+        {
+            "name": "bialy",
+            "url": "media/colors/kolorowy.jpg"
+        }
     ]
 }
