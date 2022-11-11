@@ -1,15 +1,13 @@
-.home-container {
-}
-
-.home-header {
+.home-current-category {
+  width: 550px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 .home-menu {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 200px 200px;
 }
 
 .home-theme {

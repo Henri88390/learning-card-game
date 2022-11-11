@@ -6,6 +6,7 @@ import "./Home.scss";
 
 export function Home() {
   const [viewAnswer, setViewAnswer] = useState(false);
+  const [currentTheme, setCurrentTheme] = useState("");
   const [, setCount] = useState(0); // exists because without it, the view doesn't render when we update cards
   const [cards, setCards] = useState(new Stack<Card>());
   const [playedCards, setPlayedCards] = useState(new Stack<Card>());
@@ -61,6 +62,7 @@ export function Home() {
   }
 
   function handleThemeClick(event: string) {
+    setCurrentTheme(event);
     getData(event);
   }
 
@@ -94,6 +96,7 @@ export function Home() {
           </div>
         ))}
       </div>
+      <div className="home-current-category">{currentTheme}</div>
       {!cards.isEmpty() && (
         <div className="home-game-container">
           <button
