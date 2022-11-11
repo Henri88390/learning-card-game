@@ -1,5 +1,307 @@
 {
-    "food": [
+    "Numbers": [
+        {
+            "name": "jedem"
+        },
+        {
+            "name": "dwa"
+        },
+        {
+            "name": "trzy"
+        },
+        {
+            "name": "cztery"
+        },
+        {
+            "name": "piec"
+        },
+        {
+            "name": "szesc"
+        },
+        {
+            "name": "siedem"
+        },
+        {
+            "name": "osiem"
+        },
+        {
+            "name": "dziewiec"
+        },
+        {
+            "name": "jedemnascie"
+        },
+        {
+            "name": "jedemnascie"
+        },
+        {
+            "name": "dwanascie"
+        },
+        {
+            "name": "trynascie"
+        },
+        {
+            "name": "czternascie"
+        },
+        {
+            "name": "pietnascie"
+        },
+        {
+            "name": "szescnascie"
+        },
+        {
+            "name": "siedemnascie"
+        },
+        {
+            "name": "osiemnascie"
+        },
+        {
+            "name": "dziewiecnascie"
+        },
+        {
+            "name": "dziesiecnascie"
+        },
+        {
+            "name": "dwadziescia"
+        },
+        {
+            "name": "dwadziescia jedem"
+        },
+        {
+            "name": "dwadziescia dwa"
+        },
+        {
+            "name": "dwadziescia trzy"
+        },
+        {
+            "name": "dwadziescia cztery"
+        },
+        {
+            "name": "dwadziescia piec"
+        },
+        {
+            "name": "dwadziescia szesc"
+        },
+        {
+            "name": "dwadziescia siedem"
+        },
+        {
+            "name": "dwadziescia osiem"
+        },
+        {
+            "name": "dwadziescia dziewiec"
+        },
+        {
+            "name": "trzydziesci"
+        },
+        {
+            "name": "trzydziesci jedem"
+        },
+        {
+            "name": "trzydziesci dwa"
+        },
+        {
+            "name": "trzydziesci trzy"
+        },
+        {
+            "name": "trzydziesci cztery"
+        },
+        {
+            "name": "trzydziesci piec"
+        },
+        {
+            "name": "trzydziesci szecz"
+        },
+        {
+            "name": "trzydziesci siedem"
+        },
+        {
+            "name": "trzydziesci osiem"
+        },
+        {
+            "name": "trysziesci dziewiec"
+        },
+        {
+            "name": "czterdzesci"
+        },
+        {
+            "name": "czterddziesci jedem"
+        },
+        {
+            "name": "czterdziesci dwa"
+        },
+        {
+            "name": "czterdziesci trzy"
+        },
+        {
+            "name": "czerdziesci cztery"
+        },
+        {
+            "name": "czerdziesci piec"
+        },
+        {
+            "name": "czerdziesci szesc"
+        },
+        {
+            "name": "czerdziesci siedem"
+        },
+        {
+            "name": "czerdziesci osiem"
+        },
+        {
+            "name": "czerdziesci dziewiec"
+        },
+        {
+            "name": "piecdziesiat"
+        },
+        {
+            "name": "piecdziesiat jedem"
+        },
+        {
+            "name": "piecdziesiat dwa"
+        },
+        {
+            "name": "piecdziesiat trzy"
+        },
+        {
+            "name": "piecdziesiat cztery"
+        },
+        {
+            "name": "piecdziesiat szesc"
+        },
+        {
+            "name": "piecdziesiat siedem"
+        },
+        {
+            "name": "piecdziesiat osiem"
+        },
+        {
+            "name": "piecdziesiat dziewiec"
+        },
+        {
+            "name": "szescdziesiat"
+        },
+        {
+            "name": "szescdziesiat jedem"
+        },
+        {
+            "name": "szescdziesiat dwa"
+        },
+        {
+            "name": "szescdziesiat trzy"
+        },
+        {
+            "name": "szescdziesiat cztery"
+        },
+        {
+            "name": "szescdziesiat piec"
+        },
+        {
+            "name": "szescdziesiat szesc"
+        },
+        {
+            "name": "szescdziesiat siedem"
+        },
+        {
+            "name": "szescdziesiat osiem"
+        },
+        {
+            "name": "szescdziesiat dziewiec"
+        },
+        {
+            "name": "siedemdziesiat"
+        },
+        {
+            "name": "siedemdziesiat jedem"
+        },
+        {
+            "name": "siedemdziesiat dwa"
+        },
+        {
+            "name": "siedemdziesiat trzy"
+        },
+        {
+            "name": "siedemdziesiat cztery"
+        },
+        {
+            "name": "siedemdziesiat piec"
+        },
+        {
+            "name": "siedemdziesiat szesc"
+        },
+        {
+            "name": "siedemdziesiat siedem"
+        },
+        {
+            "name": "siedemdziesiat osiem"
+        },
+        {
+            "name": "siedemdziesiat dziewiec"
+        },
+        {
+            "name": "osiemdziesiat"
+        },
+        {
+            "name": "osiemdziesiat jedem"
+        },
+        {
+            "name": "osiemdziesiat dwa"
+        },
+        {
+            "name": "osiemdziesiat trzy"
+        },
+        {
+            "name": "osiemdziesiat cztery"
+        },
+        {
+            "name": "osiemdziesiat piec"
+        },
+        {
+            "name": "osiemdziesiat szesc"
+        },
+        {
+            "name": "osiemdziesiat siedem"
+        },
+        {
+            "name": "osiemdziesiat osiem"
+        },
+        {
+            "name": "osiemdziesiat dziewiec"
+        },
+        {
+            "name": "dziewiecdziesiat"
+        },
+        {
+            "name": "dziewiecdziesiat jedem"
+        },
+        {
+            "name": "dziewiecdziesiat dwa"
+        },
+        {
+            "name": "dziewiecdziesiat trzy"
+        },
+        {
+            "name": "dziewiecdziesiat cztery"
+        },
+        {
+            "name": "dziewiecdziesiat piec"
+        },
+        {
+            "name": "dziewiecdziesiat szesc"
+        },
+        {
+            "name": "dziewiecdziesiat siedem"
+        },
+        {
+            "name": "dziewiecdziesiat osiem"
+        },
+        {
+            "name": "dziewiecdziesiat dziewiec"
+        },
+        {
+            "name": "sto"
+        }
+    ],
+    "Food": [
         {
             "name": "kiełbasa",
             "url": "media/food/kielbasa.jpg"
@@ -121,7 +423,7 @@
             "url": "media/food/ziemniaki.jpg"
         }
     ],
-    "objects": [
+    "Objects": [
         {
             "name": "autobus",
             "url": "media/objects/autobus.png"

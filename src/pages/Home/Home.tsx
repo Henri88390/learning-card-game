@@ -10,7 +10,7 @@ export function Home() {
   const [cards, setCards] = useState(new Stack<Card>());
   const [playedCards, setPlayedCards] = useState(new Stack<Card>());
   const [unplayedCards, setUnplayedCards] = useState(new Stack<Card>());
-  const themes = ["Objects", "Food"];
+  const themes = ["Objects", "Food", "Numbers"];
 
   useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);
 
@@ -25,11 +25,25 @@ export function Home() {
       .then((response) => response.json())
       .then((myJson) => {
         const data = JSON.parse(JSON.stringify(myJson));
-        setCards(new Stack(data[exerciceThemeName]));
-        setUnplayedCards(shuffleCards(data[exerciceThemeName]));
+        let exerciseCards = data[exerciceThemeName];
+        if (exerciceThemeName === "Numbers") {
+          exerciseCards = generateNumbersCards(data[exerciceThemeName]);
+        }
+        setCards(new Stack(exerciseCards));
+        setUnplayedCards(shuffleCards(exerciseCards));
         setPlayedCards(new Stack<Card>());
       });
   };
+
+  function generateNumbersCards(values: Card[]) {
+    return values.map(
+      (value, index) =>
+        ({
+          url: index.toString(),
+          name: value.name,
+        } as Card)
+    );
+  }
 
   function shuffleCards(data: Card[]) {
     const cardsList = [...data]
@@ -47,7 +61,7 @@ export function Home() {
   }
 
   function handleThemeClick(event: string) {
-    getData(event.toLowerCase());
+    getData(event);
   }
 
   function drawCard() {
@@ -87,7 +101,7 @@ export function Home() {
             className="game-button"
             onClick={undo}
           >
-            Undo
+            Previous card
           </button>
 
           <button className="game-button" onClick={shuffleCards2}>
@@ -115,14 +129,25 @@ export function Home() {
                       setViewAnswer((prevViewAnswer) => !prevViewAnswer)
                     }
                   />
-                  <img
-                    className="game-card-img"
-                    src={playedCards.peek().url}
-                    alt={playedCards.peek().url}
-                    onClick={() =>
-                      setViewAnswer((prevViewAnswer) => !prevViewAnswer)
-                    }
-                  />
+                  {!playedCards.peek().url.includes(".") ? (
+                    <div
+                      className="game-card-number"
+                      onClick={() =>
+                        setViewAnswer((prevViewAnswer) => !prevViewAnswer)
+                      }
+                    >
+                      {playedCards.peek().url}
+                    </div>
+                  ) : (
+                    <img
+                      className="game-card-img"
+                      src={playedCards.peek().url}
+                      alt={playedCards.peek().url}
+                      onClick={() =>
+                        setViewAnswer((prevViewAnswer) => !prevViewAnswer)
+                      }
+                    />
+                  )}
                 </div>
               )}
               {viewAnswer && !playedCards.isEmpty() && (

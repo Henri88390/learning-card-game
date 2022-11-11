@@ -38,10 +38,17 @@
 }
 
 .game-card-img {
-  width: 175px; 
+  width: 175px;
   cursor: pointer;
   border-radius: 5px;
-  position: absolute;  
+  position: absolute;
+}
+
+.game-card-number {
+  font-weight: bold;
+  font-size: 60px;
+  position: absolute;
+  cursor: pointer;
 }
 
 .game-button {
