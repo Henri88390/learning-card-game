@@ -2,123 +2,229 @@
     "food": [
         {
             "name": "kiełbasa",
-            "url": "media/kielbasa.jpeg"
+            "url": "media/food/kielbasa.jpg"
         },
         {
             "name": "sok",
-            "url": "media/sok.jpg"
+            "url": "media/food/sok.jpg"
         },
         {
             "name": "masło",
-            "url": "media/maslo.jpg"
+            "url": "media/food/maslo.jpg"
         },
         {
             "name": "kapusta",
-            "url": "media/kapusta.jpeg"
+            "url": "media/food/kapusta.jpeg"
         },
         {
             "name": "piwo",
-            "url": "media/piwo.jpg"
+            "url": "media/food/piwo.jpg"
         },
         {
-            "name": "ryz",
-            "url": "media/ryz.webp"
+            "name": "ryż",
+            "url": "media/food/ryz.webp"
         },
         {
             "name": "woda",
-            "url": "media/woda.jpg"
+            "url": "media/food/woda.jpg"
         },
         {
             "name": "cukier",
-            "url": "media/cukier.jpg"
+            "url": "media/food/cukier.jpg"
         },
         {
             "name": "kurczak",
-            "url": "media/kurczak.webp"
+            "url": "media/food/kurczak.webp"
         },
         {
             "name": "wino",
-            "url": "media/wino.jpg"
+            "url": "media/food/wino.jpg"
         },
         {
             "name": "chleb",
-            "url": "media/chleb.png"
+            "url": "media/food/chleb.png"
         },
         {
             "name": "jabłko",
-            "url": "media/jablko.webp"
+            "url": "media/food/jablko.webp"
         },
         {
             "name": "ciastko",
-            "url": "media/ciastko.png"
+            "url": "media/food/ciastko.png"
         },
         {
             "name": "cebula",
-            "url": "media/cebula.jpg"
+            "url": "media/food/cebula.jpg"
         },
         {
             "name": "ryba",
-            "url": "media/ryba.jpg"
+            "url": "media/food/ryba.jpg"
         },
         {
             "name": "bułka",
-            "url": "media/bulka.png"
+            "url": "media/food/bulka.png"
         },
         {
-            "name": "dzem",
-            "url": "media/dzem.jpg"
+            "name": "dżem",
+            "url": "media/food/dzem.jpg"
         },
         {
             "name": "ser",
-            "url": "media/ser.jpg"
+            "url": "media/food/ser.jpg"
         },
         {
             "name": "mleko",
-            "url": "media/mleko.jpg"
+            "url": "media/food/mleko.jpg"
         },
         {
             "name": "kawa",
-            "url": "media/kawa.jpg"
+            "url": "media/food/kawa.jpg"
         },
         {
             "name": "makaron",
-            "url": "media/makaron.webp"
+            "url": "media/food/makaron.webp"
         },
         {
             "name": "cytryna",
-            "url": "media/cytryna.jpeg"
+            "url": "media/food/cytryna.jpeg"
         },
         {
             "name": "herbata",
-            "url": "media/herbata.jpeg"
+            "url": "media/food/herbata.jpeg"
         },
         {
             "name": "szynka",
-            "url": "media/szynka.jpg"
+            "url": "media/food/szynka.jpg"
         },
         {
             "name": "banany",
-            "url": "media/banany.jpg"
+            "url": "media/food/banany.jpg"
         },
         {
             "name": "loby",
-            "url": "media/loby.png"
+            "url": "media/food/loby.png"
         },
         {
             "name": "pomidory",
-            "url": "media/pomidory.jpg"
+            "url": "media/food/pomidory.jpg"
         },
         {
             "name": "jajka",
-            "url": "media/jajka.jpg"
+            "url": "media/food/jajka.jpg"
         },
         {
-            "name": "ogorki",
-            "url": "media/ogorki.jpg"
+            "name": "ogórki",
+            "url": "media/food/ogorki.jpg"
         },
         {
             "name": "ziemniaki",
-            "url": "media/ziemniaki.jpg"
+            "url": "media/food/ziemniaki.jpg"
+        }
+    ],
+    "objects": [
+        {
+            "name": "autobus",
+            "url": "media/objects/autobus.png"
+        },
+        {
+            "name": "bilet",
+            "url": "media/objects/bilet.jpg"
+        },
+        {
+            "name": "chłopak",
+            "url": "media/objects/chlopak.jpg"
+        },
+        {
+            "name": "długopis",
+            "url": "media/objects/dlugopis.jpg"
+        },
+        {
+            "name": "dom",
+            "url": "media/objects/dom.jpg"
+        },
+        {
+            "name": "drzwi",
+            "url": "media/objects/drzwi.jpg"
+        },
+        {
+            "name": "dziecko",
+            "url": "media/objects/dziecko.jpg"
+        },
+        {
+            "name": "dziewczyna",
+            "url": "media/objects/dziewczyna.webp"
+        },
+        {
+            "name": "gazeta",
+            "url": "media/objects/gazeta.jpg"
+        },
+        {
+            "name": "kobieta",
+            "url": "media/objects/kobieta.jpg"
+        },
+        {
+            "name": "komórka",
+            "url": "media/objects/komorka.jpg"
+        },
+        {
+            "name": "komputer",
+            "url": "media/objects/komputer.jpeg"
+        },
+        {
+            "name": "krzesło",
+            "url": "media/objects/krzeslo.avif"
+        },
+        {
+            "name": "ksiazka",
+            "url": "media/objects/ksiazka.jpg"
+        },
+        {
+            "name": "kubek",
+            "url": "media/objects/kubek.jpg"
+        },
+        {
+            "name": "mezczyzna",
+            "url": "media/objects/mezczyzna.jpg"
+        },
+        {
+            "name": "okno",
+            "url": "media/objects/okno.webp"
+        },
+        {
+            "name": "ołowek",
+            "url": "media/objects/olowek.jpg"
+        },
+        {
+            "name": "parasol",
+            "url": "media/objects/parasol.jpg"
+        },
+        {
+            "name": "samochód",
+            "url": "media/objects/samochod.webp"
+        },
+        {
+            "name": "słonce",
+            "url": "media/objects/slonce.jpg"
+        },
+        {
+            "name": "słownik",
+            "url": "media/objects/slownik.webp"
+        },
+        {
+            "name": "stoł",
+            "url": "media/objects/stol.jpg"
+        },
+        {
+            "name": "tramwaj",
+            "url": "media/objects/tramwaj.jpg"
+        },
+        {
+            "name": "zeszyt",
+            "url": "media/objects/zeszyt.jpg"
+        },
+        {
+            "name": "słonce",
+            "url": "media/objects/autobus.png"
         }
     ]
 }

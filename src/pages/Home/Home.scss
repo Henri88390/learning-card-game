@@ -5,9 +5,11 @@
 }
 
 .home-menu {
-  padding: 50px 100px;
+  width: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-theme {
@@ -15,4 +17,65 @@
 }
 
 .home-game-container {
+  background: green;
+  padding: 20px 50px;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.game-card-container {
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-card-img {
+  width: 175px; 
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;  
+}
+
+.game-button {
+  background: rgb(233, 231, 231);
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.polish-answer {
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 0px;
+  background: rgb(233, 231, 231);
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.played-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.empty-card {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(86, 192, 86);
+  width: 200px;
+  height: 300px;
 }

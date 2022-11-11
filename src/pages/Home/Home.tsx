@@ -1,42 +1,69 @@
-import React, { useState } from "react";
-import { GameBoard, ThemeCard } from "../../components";
+import React, { useEffect, useState } from "react";
+import { ThemeCard } from "../../components";
 import { Card } from "../../models/card";
+import Stack from "../../models/stack.ts";
 import "./Home.scss";
 
 export function Home() {
-  const [theme, setTheme] = useState("");
-  const [cards, setCards] = useState([] as Card[]);
-  const themes = ["Objects", "Food", "Numbers"];
+  const [viewAnswer, setViewAnswer] = useState(false);
+  const [, setCount] = useState(0); // exists because without it, the view doesn't render when we update cards
+  const [cards, setCards] = useState(new Stack<Card>());
+  const [playedCards, setPlayedCards] = useState(new Stack<Card>());
+  const [unplayedCards, setUnplayedCards] = useState(new Stack<Card>());
+  const themes = ["Objects", "Food"];
 
-  const getData = () => {
-    fetch(
-      "data/cards.json",
+  useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);
 
-      {
-        headers: {
-          "Content-Type": "application/json",
+  const getData = (exerciceThemeName: string) => {
+    fetch("data/cards.json", {
+      headers: {
+        "Content-Type": "application/json",
 
-          Accept: "application/json",
-        },
-      }
-    )
-      .then(function (response) {
-        console.log(response);
-        return response.json();
-      })
-      .then(function (myJson) {
-        console.log(theme);
-        console.log(myJson[theme]);
-        setCards(myJson[theme]);
-        console.log(cards);
+        Accept: "application/json",
+      },
+    })
+      .then((response) => response.json())
+      .then((myJson) => {
+        const data = JSON.parse(JSON.stringify(myJson));
+        setCards(new Stack(data[exerciceThemeName]));
+        setUnplayedCards(shuffleCards(data[exerciceThemeName]));
+        setPlayedCards(new Stack<Card>());
       });
   };
 
+  function shuffleCards(data: Card[]) {
+    const cardsList = [...data]
+      .sort(() => Math.random() - 0.5)
+      .map((card) => ({ ...card, id: Math.random() }));
+    return new Stack(cardsList);
+  }
+
+  function shuffleCards2() {
+    const cardsList = [...cards.items]
+      .sort(() => Math.random() - 0.5)
+      .map((card) => ({ ...card, id: Math.random() }));
+    setUnplayedCards(new Stack(cardsList));
+    setPlayedCards(new Stack());
+  }
+
   function handleThemeClick(event: string) {
-    console.log(event);
-    setTheme(() => event);
-    console.log(theme);
-    getData();
+    getData(event.toLowerCase());
+  }
+
+  function drawCard() {
+    setCount((prevCount) => prevCount + 1);
+    setViewAnswer(false);
+    const [unplayedCardsLeft, topCard] = unplayedCards.pop();
+    setUnplayedCards(unplayedCardsLeft);
+    setPlayedCards(playedCards.push(topCard));
+  }
+
+  function undo() {
+    setViewAnswer(false);
+    setCount((prevCount) => prevCount + 1);
+    const [playedCardsLeft, topCard] = playedCards.pop();
+    setPlayedCards(playedCardsLeft);
+    setUnplayedCards(unplayedCards.push(topCard));
   }
 
   return (
@@ -53,9 +80,58 @@ export function Home() {
           </div>
         ))}
       </div>
-      <div className="home-game-container">
-        <GameBoard></GameBoard>
-      </div>
+      {!cards.isEmpty() && (
+        <div className="home-game-container">
+          <button
+            disabled={playedCards.isEmpty()}
+            className="game-button"
+            onClick={undo}
+          >
+            Undo
+          </button>
+
+          <button className="game-button" onClick={shuffleCards2}>
+            Shuffle
+          </button>
+          <div className="cards">
+            {!unplayedCards.isEmpty() ? (
+              <img
+                className="game-card-container"
+                src="media/card-back.jpg"
+                alt="deck"
+                onClick={drawCard}
+              />
+            ) : (
+              <div className="empty-card" onClick={shuffleCards2}></div>
+            )}
+            <div className="played-cards">
+              {!playedCards.isEmpty() && (
+                <div className="game-card-container">
+                  <img
+                    className="game-card-container"
+                    src="media/card-front.jpg"
+                    alt="Card front"
+                    onClick={() =>
+                      setViewAnswer((prevViewAnswer) => !prevViewAnswer)
+                    }
+                  />
+                  <img
+                    className="game-card-img"
+                    src={playedCards.peek().url}
+                    alt={playedCards.peek().url}
+                    onClick={() =>
+                      setViewAnswer((prevViewAnswer) => !prevViewAnswer)
+                    }
+                  />
+                </div>
+              )}
+              {viewAnswer && !playedCards.isEmpty() && (
+                <div className="polish-answer">{playedCards.peek().name}</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
