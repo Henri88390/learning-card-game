@@ -351,7 +351,7 @@
         },
         {
             "name": "jabłko",
-            "url": "media/food/jablko.webp"
+            "url": "media/food/jablko.png"
         },
         {
             "name": "ciastko",
@@ -387,15 +387,15 @@
         },
         {
             "name": "makaron",
-            "url": "media/food/makaron.webp"
+            "url": "media/food/makaron.jpg"
         },
         {
             "name": "cytryna",
-            "url": "media/food/cytryna.jpeg"
+            "url": "media/food/cytryna.jpg"
         },
         {
             "name": "herbata",
-            "url": "media/food/herbata.jpeg"
+            "url": "media/food/herbata.jpg"
         },
         {
             "name": "szynka",
@@ -457,7 +457,7 @@
         },
         {
             "name": "dziewczyna",
-            "url": "media/objects/dziewczyna.webp"
+            "url": "media/objects/dziewczyna.jpg"
         },
         {
             "name": "gazeta",
@@ -473,11 +473,11 @@
         },
         {
             "name": "komputer",
-            "url": "media/objects/komputer.jpeg"
+            "url": "media/objects/komputer.png"
         },
         {
             "name": "krzesło",
-            "url": "media/objects/krzeslo.avif"
+            "url": "media/objects/krzeslo.jpg"
         },
         {
             "name": "ksiazka",
@@ -493,7 +493,7 @@
         },
         {
             "name": "okno",
-            "url": "media/objects/okno.webp"
+            "url": "media/objects/okno.jpg"
         },
         {
             "name": "ołowek",
@@ -505,7 +505,7 @@
         },
         {
             "name": "samochód",
-            "url": "media/objects/samochod.webp"
+            "url": "media/objects/samochod.jpg"
         },
         {
             "name": "słonce",
@@ -513,7 +513,7 @@
         },
         {
             "name": "słownik",
-            "url": "media/objects/slownik.webp"
+            "url": "media/objects/slownik.png"
         },
         {
             "name": "stoł",
@@ -535,7 +535,7 @@
     "Adjectives": [
         {
             "name": "gruby",
-            "url": "media/adjectives/gruby.webp"
+            "url": "media/adjectives/gruby.png"
         },
         {
             "name": "brzydki",
@@ -575,11 +575,11 @@
         },
         {
             "name": "wysoki",
-            "url": "media/adjectives/wysoki.webp"
+            "url": "media/adjectives/wysoki.jpg"
         },
         {
             "name": "wysportowany",
-            "url": "media/adjectives/wysportowany.webp"
+            "url": "media/adjectives/wysportowany.jpg"
         }
     ],
     "Colors": [
@@ -593,7 +593,7 @@
         },
         {
             "name": "srebrny",
-            "url": "media/colors/srebrny.webp"
+            "url": "media/colors/srebrny.jpg"
         },
         {
             "name": "żółty",
@@ -695,7 +695,7 @@
         },
         {
             "name": "oglądać telewizję",
-            "url": "media/hobbies/ogladac-telewizje.webp"
+            "url": "media/hobbies/ogladac-telewizje.png"
         },
         {
             "name": "pływać",
@@ -715,7 +715,7 @@
         },
         {
             "name": "siedzieć na Internecie",
-            "url": "media/hobbies/siedziec-na-internecie.webp"
+            "url": "media/hobbies/siedziec-na-internecie.jpg"
         },
         {
             "name": "słuchać muzyki",
@@ -727,7 +727,7 @@
         },
         {
             "name": "spotykać się z kolegami",
-            "url": "media/hobbies/spotykac-sie-z-kolegami.webp"
+            "url": "media/hobbies/spotykac-sie-z-kolegami.jpg"
         },
         {
             "name": "tańczyć",
@@ -735,11 +735,11 @@
         },
         {
             "name": "upczyć się polskiego",
-            "url": "media/hobbies/upczyc-sie-polskiego.webp"
+            "url": "media/hobbies/upczyc-sie-polskiego.jpg"
         },
         {
             "name": "uprawiać sport",
-            "url": "media/hobbies/uprawiac-sport.webp"
+            "url": "media/hobbies/uprawiac-sport.jpg"
         }
     ]
 }
