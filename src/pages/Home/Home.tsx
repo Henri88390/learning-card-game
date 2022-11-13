@@ -116,28 +116,19 @@ export function Home() {
             </div>
           ))}
         </div>
-        <div className="home-current-category">{currentTheme}</div>
+        <div className="home-current-category">
+          <div className="home-current-category-text">{currentTheme}</div>
+          <div className="game-button" onClick={shuffleCards2}>
+            <img
+              className="game-button-img"
+              src="icons/shuffle.png"
+              alt="Shuffle"
+            />
+            Shuffle cards
+          </div>
+        </div>
         {!cards.isEmpty() && (
           <div className="home-game-container">
-            <div className="home-game-header">
-              <div className="game-button" onClick={shuffleCards2}>
-                <img
-                  className="game-button-img"
-                  src="icons/shuffle.png"
-                  alt="Shuffle"
-                />
-              </div>
-              {!playedCards.isEmpty() && (
-                <div className="game-button" onClick={previousCard}>
-                  <img
-                    className="game-button-img"
-                    src="icons/previous.png"
-                    alt="Previous"
-                  />
-                </div>
-              )}
-            </div>
-
             <div className="home-game-cards">
               {!unplayedCards.isEmpty() ? (
                 <div>
@@ -187,16 +178,12 @@ export function Home() {
                         }
                         src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
                         alt="Card front"
-                        onClick={() =>
-                          setViewAnswer((prevViewAnswer) => !prevViewAnswer)
-                        }
+                        onClick={previousCard}
                       />
                       {!playedCards.peek().url.includes(".") ? (
                         <div
                           className={"game-card-number"}
-                          onClick={() =>
-                            setViewAnswer((prevViewAnswer) => !prevViewAnswer)
-                          }
+                          onClick={previousCard}
                         >
                           {playedCards.peek().url}
                         </div>
@@ -213,7 +200,7 @@ export function Home() {
                             playedCards.peek().url
                           }
                           alt={playedCards.peek().url}
-                          onClick={viewAnswerToggle}
+                          onClick={previousCard}
                         />
                       )}
                     </div>
@@ -221,10 +208,24 @@ export function Home() {
                 )}
               </div>
             </div>
-            {!playedCards.isEmpty() && viewAnswer && (
-              <div className="view-answer-container">
-                {playedCards.peek().name}
-              </div>
+            {!playedCards.isEmpty() ? (
+              viewAnswer ? (
+                <div
+                  className="view-answer-container"
+                  onClick={viewAnswerToggle}
+                >
+                  {playedCards.peek().name}
+                </div>
+              ) : (
+                <div
+                  className="view-answer-container"
+                  onClick={viewAnswerToggle}
+                >
+                  Show answer
+                </div>
+              )
+            ) : (
+              <div></div>
             )}
           </div>
         )}

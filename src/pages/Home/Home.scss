@@ -11,9 +11,15 @@
 }
 
 .home-current-category {
-  margin: 20px 0px 5px 0px;
+  display: flex;
+  align-items: center;
+  padding: 30px 0px 20px 0px;
+}
+
+.home-current-category-text {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
+  margin-right: 10px;
 }
 
 .home-container {
@@ -123,13 +129,14 @@
 
 .game-button {
   border: 0.5px solid black;
-  padding: 5px 0px;
+  padding: 5px 10px;
   display: flex;
+  border-radius: 5px;
   background: rgb(229, 229, 229);
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   cursor: pointer;
-  width: 50%;
+  width: 180px;
 }
 
 .game-button:hover {
@@ -168,6 +175,7 @@
 
 .game-button-img {
   height: 30px;
+  margin-right: 15px;
 }
 
 .view-answer-container {
@@ -178,4 +186,5 @@
   border: 1px solid black;
   background: white;
   border-radius: 5px;
+  cursor: pointer;
 }
