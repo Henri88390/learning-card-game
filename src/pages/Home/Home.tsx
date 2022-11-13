@@ -164,48 +164,59 @@ export function Home() {
               )}
               <div className="played-cards">
                 {!playedCards.isEmpty() && (
-                  <div
-                    className={
-                      prevCardAnimate
-                        ? "game-played-card-container--animate"
-                        : "game-played-card-container"
-                    }
-                  >
-                    <img
+                  <div>
+                    {playedCards.items.length > 1 && (
+                      <img
+                        className="game-played-card-back"
+                        src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
+                        alt="Card front"
+                      />
+                    )}
+                    <div
                       className={
                         prevCardAnimate
-                          ? "game-played-card-img--animate"
-                          : "game-played-card-img"
+                          ? "game-played-card-container--animate"
+                          : "game-played-card-container"
                       }
-                      src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
-                      alt="Card front"
-                      onClick={() =>
-                        setViewAnswer((prevViewAnswer) => !prevViewAnswer)
-                      }
-                    />
-                    {!playedCards.peek().url.includes(".") ? (
-                      <div
-                        className={"game-card-number"}
-                        onClick={() =>
-                          setViewAnswer((prevViewAnswer) => !prevViewAnswer)
-                        }
-                      >
-                        {playedCards.peek().url}
-                      </div>
-                    ) : (
+                    >
                       <img
                         className={
                           prevCardAnimate
-                            ? "game-card-img--animate"
-                            : "game-card-img"
+                            ? "game-played-card-img--animate"
+                            : "game-played-card-img"
                         }
-                        src={
-                          process.env.PUBLIC_URL + "/" + playedCards.peek().url
+                        src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
+                        alt="Card front"
+                        onClick={() =>
+                          setViewAnswer((prevViewAnswer) => !prevViewAnswer)
                         }
-                        alt={playedCards.peek().url}
-                        onClick={viewAnswerToggle}
                       />
-                    )}
+                      {!playedCards.peek().url.includes(".") ? (
+                        <div
+                          className={"game-card-number"}
+                          onClick={() =>
+                            setViewAnswer((prevViewAnswer) => !prevViewAnswer)
+                          }
+                        >
+                          {playedCards.peek().url}
+                        </div>
+                      ) : (
+                        <img
+                          className={
+                            prevCardAnimate
+                              ? "game-card-img--animate"
+                              : "game-card-img"
+                          }
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/" +
+                            playedCards.peek().url
+                          }
+                          alt={playedCards.peek().url}
+                          onClick={viewAnswerToggle}
+                        />
+                      )}
+                    </div>
                   </div>
                 )}
               </div>

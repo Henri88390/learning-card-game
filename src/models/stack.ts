@@ -26,4 +26,8 @@ export default class Stack<T> {
   peek() {
     return this.items[this.items.length - 1];
   }
+
+  secondPeek() {
+    return this.items[this.items.length - 2];
+  }
 }
