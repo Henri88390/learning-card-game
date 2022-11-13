@@ -79,10 +79,10 @@ export function Home() {
     setDrawCardAnimate(true);
     setCount((prevCount) => prevCount + 1);
     setViewAnswer(false);
-    const [unplayedCardsLeft, topCard] = unplayedCards.pop();
-    setUnplayedCards(unplayedCardsLeft);
 
     setTimeout(() => {
+      const [unplayedCardsLeft, topCard] = unplayedCards.pop();
+      setUnplayedCards(unplayedCardsLeft);
       setDrawCardAnimate(false);
       setPlayedCards(playedCards.push(topCard));
     }, 500);
