@@ -13,7 +13,10 @@
 .home-current-category {
   display: flex;
   align-items: center;
-  padding: 30px 0px 20px 0px;
+  justify-content: space-between;
+  gap: 10px;
+  width: 300px;
+  padding: 20px 0px;
 }
 
 .home-current-category-text {
@@ -142,7 +145,7 @@
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
-  width: 180px;
+  width: 100px;
 }
 
 .game-button:hover {
@@ -193,4 +196,8 @@
   background: white;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.view-answer-text {
+  cursor: none;
 }

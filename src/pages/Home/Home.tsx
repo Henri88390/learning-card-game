@@ -125,11 +125,13 @@ export function Home() {
                 src="icons/shuffle.png"
                 alt="Shuffle"
               />
-              Shuffle cards
+              Shuffle
             </div>
           </div>
         ) : (
-          <div className="home-current-category-instruction">Select a theme!</div>
+          <div className="home-current-category-instruction">
+            Select a theme!
+          </div>
         )}
         {!cards.isEmpty() && (
           <div className="home-game-container">
@@ -218,14 +220,16 @@ export function Home() {
                   className="view-answer-container"
                   onClick={viewAnswerToggle}
                 >
-                  {playedCards.peek().name}
+                  <div className="view-answer-text">
+                    {playedCards.peek().name}
+                  </div>
                 </div>
               ) : (
                 <div
                   className="view-answer-container"
                   onClick={viewAnswerToggle}
                 >
-                  Show answer
+                  Reveal word
                 </div>
               )
             ) : (
