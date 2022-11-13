@@ -1,10 +1,11 @@
 .theme-card-container {
   border: 1px solid black;
   width: auto;
-  height: 30px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(229, 229, 229);
   cursor: pointer;
 }
 

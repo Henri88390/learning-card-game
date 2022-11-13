@@ -6,5 +6,13 @@ interface ThemeCardProps {
 }
 
 export function ThemeCard(props: ThemeCardProps) {
-  return <div className="theme-card-container">{props.name}</div>;
+  return (
+    <div className="theme-card-container">
+      <img
+        className="game-button-img"
+        src={"icons/" + props.name + ".png"}
+        alt={props.name}
+      />
+    </div>
+  );
 }
