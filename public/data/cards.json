@@ -488,7 +488,7 @@
             "url": "media/objects/kubek.jpg"
         },
         {
-            "name": "męzczyzna",
+            "name": "mężczyzna",
             "url": "media/objects/mezczyzna.jpg"
         },
         {
@@ -496,7 +496,7 @@
             "url": "media/objects/okno.jpg"
         },
         {
-            "name": "ołowek",
+            "name": "ołówek",
             "url": "media/objects/olowek.jpg"
         },
         {
@@ -528,7 +528,7 @@
             "url": "media/objects/zeszyt.jpg"
         },
         {
-            "name": "słonce",
+            "name": "autobus",
             "url": "media/objects/autobus.png"
         }
     ],
@@ -678,11 +678,11 @@
             "url": "media/hobbies/grac-w-pilke.jpg"
         },
         {
-            "name": "grac w tenisa",
+            "name": "grać w tenisa",
             "url": "media/hobbies/grac-w-tenisa.jpg"
         },
         {
-            "name": "jezdzic na nartach",
+            "name": "jeżdzić na nartach",
             "url": "media/hobbies/jezdzic-na-nartach.jpg"
         },
         {
