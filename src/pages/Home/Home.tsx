@@ -82,9 +82,9 @@ export function Home() {
 
     setTimeout(() => {
       const [unplayedCardsLeft, topCard] = unplayedCards.pop();
+      setPlayedCards(playedCards.push(topCard));
       setUnplayedCards(unplayedCardsLeft);
       setDrawCardAnimate(false);
-      setPlayedCards(playedCards.push(topCard));
     }, 500);
   }
 
