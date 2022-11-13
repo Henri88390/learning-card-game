@@ -116,17 +116,21 @@ export function Home() {
             </div>
           ))}
         </div>
-        <div className="home-current-category">
-          <div className="home-current-category-text">{currentTheme}</div>
-          <div className="game-button" onClick={shuffleCards2}>
-            <img
-              className="game-button-img"
-              src="icons/shuffle.png"
-              alt="Shuffle"
-            />
-            Shuffle cards
+        {currentTheme.length > 0 ? (
+          <div className="home-current-category">
+            <div className="home-current-category-text">{currentTheme}</div>
+            <div className="game-button" onClick={shuffleCards2}>
+              <img
+                className="game-button-img"
+                src="icons/shuffle.png"
+                alt="Shuffle"
+              />
+              Shuffle cards
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="home-current-category-instruction">Select a theme!</div>
+        )}
         {!cards.isEmpty() && (
           <div className="home-game-container">
             <div className="home-game-cards">
