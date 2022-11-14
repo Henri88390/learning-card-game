@@ -1,11 +1,11 @@
 .translate-to-left {
-  transition-duration: 1000ms;
+  transition-duration: 2000ms;
   transform: translateX(-250px) rotateY(180deg);
   z-index: 2;
 }
 
 .translate-to-right {
-  transition-duration: 500ms;
+  transition-duration: 800ms;
   transform: translateX(180px) rotateY(-180deg);
   z-index: 2;
 }
