@@ -20,6 +20,7 @@ export function Home() {
     "Adjectives",
     "Colors",
     "Hobbies",
+    "Verbs",
   ];
 
   useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);

@@ -1,4 +1,78 @@
 {
+    "Verbs": [
+        {
+            "name": "kochać, kocham",
+            "url": "media/verbs/kochac.png"
+        },
+        {
+            "name": "lubić, lubię",
+            "url": "media/verbs/lubic.png"
+        },
+        {
+            "name": "być, jestem",
+            "url": "media/verbs/byc.png"
+        },
+        {
+            "name": "robić, robię",
+            "url": "media/verbs/robic.png"
+        },
+        {
+            "name": "tanczyć, tańczę",
+            "url": "media/verbs/tanczyc.jpg"
+        },
+        {
+            "name": "oglądać, oglądam",
+            "url": "media/verbs/ogladac.jpg"
+        },
+        {
+            "name": "płacić, płacę",
+            "url": "media/verbs/placic.png"
+        },
+        {
+            "name": "spotykać, spotykam",
+            "url": "media/verbs/spotykac.png"
+        },
+        {
+            "name": "jeżdżić, jeżdżę",
+            "url": "media/verbs/jezdzic.png"
+        },
+        {
+            "name": "czytać, czytam",
+            "url": "media/verbs/czytac.png"
+        },
+        {
+            "name": "grać, gram",
+            "url": "media/verbs/grac.png"
+        },
+        {
+            "name": "pić, piję",
+            "url": "media/verbs/pic.png"
+        },
+        {
+            "name": "spacerować, spaceruję",
+            "url": "media/verbs/spacerowac.png"
+        },
+        {
+            "name": "uczyć się, uczę się",
+            "url": "media/verbs/uczyc_sie.png"
+        },
+        {
+            "name": "uprawiać, uprawiam",
+            "url": "media/verbs/uprawiac.png"
+        },
+        {
+            "name": "śpiewać, śpiewam",
+            "url": "media/verbs/spiewac.jpg"
+        },
+        {
+            "name": "pływać, pływam",
+            "url": "media/verbs/plywac.png"
+        },
+        {
+            "name": "uprawiać, uprawiam",
+            "url": "media/verbs/uprawiac.png"
+        }
+    ],
     "Numbers": [
         {
             "name": "zero"
@@ -731,7 +805,7 @@
         },
         {
             "name": "tańczyć",
-            "url": "media/hobbies/tanczyc.jpg"
+            "url": "media/hobbies/tańczyc.jpg"
         },
         {
             "name": "upczyć się polskiego",
