@@ -71,6 +71,14 @@
         {
             "name": "uprawiać, uprawiam",
             "url": "media/verbs/uprawiac.png"
+        },
+        {
+            "name": "rozumieć, rozumiem",
+            "url": "media/verbs/rozumiec.png"
+        },
+        {
+            "name": "mieć, mam",
+            "url": "media/verbs/miec.png"
         }
     ],
     "Numbers": [
