@@ -1,4 +1,156 @@
 {
+    "Professions": [
+        {
+            "name": "nauczyciel",
+            "url": "media/professions/nauczyciel.png"
+        },
+        {
+            "name": "lekarz",
+            "url": "media/professions/lekarz.jpg"
+        },
+        {
+            "name": "architekt",
+            "url": "media/professions/architekt.png"
+        },
+        {
+            "name": "informatyk",
+            "url": "media/professions/informatyk.png"
+        },
+        {
+            "name": "aktor",
+            "url": "media/professions/aktor.png"
+        },
+        {
+            "name": "kucharz",
+            "url": "media/professions/kucharz.png"
+        },
+        {
+            "name": "muzyk",
+            "url": "media/professions/muzyk.png"
+        },
+        {
+            "name": "dziennikarz",
+            "url": "media/professions/dziennikarz.png"
+        },
+        {
+            "name": "emeryt",
+            "url": "media/professions/emeryt.png"
+        },
+        {
+            "name": "policjant",
+            "url": "media/professions/policjant.png"
+        },
+        {
+            "name": "inzynier",
+            "url": "media/professions/inzynier.png"
+        },
+        {
+            "name": "student",
+            "url": "media/professions/student.png"
+        },
+        {
+            "name": "kelner",
+            "url": "media/professions/kelner.png"
+        },
+        {
+            "name": "biznesmen",
+            "url": "media/professions/biznesmen.png"
+        },
+        {
+            "name": "dentysta",
+            "url": "media/professions/dentysta.png"
+        },
+        {
+            "name": "kierowca",
+            "url": "media/professions/kierowca.png"
+        },
+        {
+            "name": "fotograf",
+            "url": "media/professions/fotograf.png"
+        },
+        {
+            "name": "urzednik",
+            "url": "media/professions/urzednik.png"
+        },
+        {
+            "name": "bezrobotny",
+            "url": "media/professions/bezrobotny.png"
+        },
+        {
+            "name": "adwokat",
+            "url": "media/professions/adwokat.png"
+        }
+    ],
+    "Weather": [
+        {
+            "name": "wiosna",
+            "url": "media/weather/wiosna.jpg"
+        },
+        {
+            "name": "lato",
+            "url": "media/weather/lato.png"
+        },
+        {
+            "name": "jesień",
+            "url": "media/weather/jesien.png"
+        },
+        {
+            "name": "zima",
+            "url": "media/weather/zima.png"
+        },
+        {
+            "name": "pada śnieg",
+            "url": "media/weather/pada_snieg.png"
+        },
+        {
+            "name": "jiest ciepło",
+            "url": "media/weather/jest_cieplo.png"
+        },
+        {
+            "name": "jest gorąco",
+            "url": "media/weather/jest_goraco.jpg"
+        },
+        {
+            "name": "świeci słonce",
+            "url": "media/weather/swieci_slonce.png"
+        },
+        {
+            "name": "jest burza",
+            "url": "media/weather/jest_burza.png"
+        },
+        {
+            "name": "pada deszcz",
+            "url": "media/weather/pada_deszcz.png"
+        },
+        {
+            "name": "jest pochmurno",
+            "url": "media/weather/jest_pochmurno.png"
+        },
+        {
+            "name": "jest mróz",
+            "url": "media/weather/jest_mroz.jpg"
+        },
+        {
+            "name": "jest zimno",
+            "url": "media/weather/jest_zimno.png"
+        },
+        {
+            "name": "wiejewiatr",
+            "url": "media/weather/wiejewiatr.png"
+        },
+        {
+            "name": "1 stopień",
+            "url": "media/weather/stopien.png"
+        },
+        {
+            "name": "X2 X3 X4 stopnie",
+            "url": "media/weather/stopnie.png"
+        },
+        {
+            "name": "X0 X1 X5 X6 X7 X8 X9 stopni",
+            "url": "media/weather/stopni.png"
+        }
+    ],
     "Verbs": [
         {
             "name": "kochać, kocham",
