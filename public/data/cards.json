@@ -1,4 +1,78 @@
 {
+    "Family": [
+        {
+            "name": "maz",
+            "english": "husband"
+        },
+        {
+            "name": "zona",
+            "english": "wife"
+        },
+        {
+            "name": "kuzyn",
+            "english": "cousin (m.)"
+        },
+        {
+            "name": "kuzynka",
+            "english": "cousin (f.)"
+        },
+        {
+            "name": "wujek",
+            "english": "uncle"
+        },
+        {
+            "name": "ciocia",
+            "english": "aunt"
+        },
+        {
+            "name": "mama",
+            "english": "mom"
+        },
+        {
+            "name": "tata",
+            "english": "dad"
+        },
+        {
+            "name": "babcia",
+            "english": "grandma"
+        },
+        {
+            "name": "dziadek",
+            "english": "grandpa"
+        },
+        {
+            "name": "brat",
+            "english": "brother"
+        },
+        {
+            "name": "siostra",
+            "english": "sister"
+        },
+        {
+            "name": "syn",
+            "english": "son"
+        },
+        {
+            "name": "corka",
+            "english": "daughter"
+        },
+        {
+            "name": "dzieci",
+            "english": "kids"
+        },
+        {
+            "name": "rodzenstwo",
+            "english": "siblings"
+        },
+        {
+            "name": "rodzice",
+            "english": "parents"
+        },
+        {
+            "name": "dziadkowie",
+            "english": "grand parents"
+        }
+    ],
     "Frequency": [
         {
             "name": "zawsze",
@@ -203,6 +277,10 @@
     ],
     "Verbs": [
         {
+            "name": "myśleć",
+            "english": "to think"
+        },
+        {
             "name": "kochać, kocham",
             "url": "media/verbs/kochac.png"
         },
@@ -212,11 +290,11 @@
         },
         {
             "name": "być, jestem",
-            "url": "media/verbs/byc.png"
+            "english": "To be"
         },
         {
             "name": "robić, robię",
-            "url": "media/verbs/robic.png"
+            "english": "To do"
         },
         {
             "name": "tanczyć, tańczę",
@@ -232,7 +310,7 @@
         },
         {
             "name": "spotykać, spotykam",
-            "url": "media/verbs/spotykac.png"
+            "english": "To meet"
         },
         {
             "name": "jeżdżić, jeżdżę",
@@ -276,11 +354,11 @@
         },
         {
             "name": "rozumieć, rozumiem",
-            "url": "media/verbs/rozumiec.png"
+            "english": "To understand"
         },
         {
             "name": "mieć, mam",
-            "url": "media/verbs/miec.png"
+            "english": "To have"
         }
     ],
     "Numbers": [

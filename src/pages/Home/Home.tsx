@@ -24,6 +24,7 @@ export function Home() {
     "Weather",
     "Professions",
     "Frequency",
+    "Family",
   ];
 
   useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);
