@@ -1,11 +1,11 @@
 {
     "Family": [
         {
-            "name": "maz",
+            "name": "maż",
             "english": "husband"
         },
         {
-            "name": "zona",
+            "name": "żona",
             "english": "wife"
         },
         {
@@ -61,7 +61,7 @@
             "english": "kids"
         },
         {
-            "name": "rodzenstwo",
+            "name": "rodzeństwo",
             "english": "siblings"
         },
         {
@@ -121,6 +121,22 @@
         {
             "name": "dwa razy na rok",
             "english": "twice a year"
+        },
+        {
+            "name": "codziennie",
+            "english": "daily"
+        },
+        {
+            "name": "co tydzień",
+            "english": "weekly"
+        },
+        {
+            "name": "miesięczny",
+            "english": "monthly"
+        },
+        {
+            "name": "rocznie",
+            "english": "yearly"
         }
     ],
     "Professions": [
