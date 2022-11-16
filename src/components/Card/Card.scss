@@ -1,1 +1,71 @@
-.Card {}
+.game-played-card-container {
+  width: 120px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.translate-to-left {
+  transition-duration: 2000ms;
+  transform: translateX(-250px) rotateY(180deg);
+  z-index: 2;
+}
+
+.translate-to-right {
+  transition-duration: 800ms;
+  transform: translateX(180px) rotateY(-180deg);
+  z-index: 2;
+}
+
+.game-played-card-container--animate {
+  @extend .game-played-card-container;
+  @extend .translate-to-left;
+}
+
+.game-played-card-back {
+  width: 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.game-played-card-img {
+  width: 120px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-played-card-img--animate {
+  @extend .game-played-card-img;
+  @extend .translate-to-left;
+}
+
+.game-bottom-card {
+  position: absolute;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.game-card-container {
+  width: 120px;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-card-container--animate {
+  @extend .game-card-container;
+  @extend .translate-to-right;
+}

@@ -1,4 +1,5 @@
-export interface Card {
+export interface CardModel {
   name: string;
-  url: string;
+  url?: string;
+  english?: string;
 }

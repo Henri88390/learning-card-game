@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { ThemeCard } from "../../components";
-import { Card } from "../../models/card";
+import { Card, ThemeCard } from "../../components";
+import { CardModel } from "../../models/card";
 import Stack from "../../models/stack.ts";
 import "./Home.scss";
 
@@ -10,9 +10,9 @@ export function Home() {
   const [viewAnswer, setViewAnswer] = useState(false);
   const [currentTheme, setCurrentTheme] = useState("");
   const [, setCount] = useState(0); // exists because without it, the view doesn't render when we update cards
-  const [cards, setCards] = useState(new Stack<Card>());
-  const [playedCards, setPlayedCards] = useState(new Stack<Card>());
-  const [unplayedCards, setUnplayedCards] = useState(new Stack<Card>());
+  const [cards, setCards] = useState(new Stack<CardModel>());
+  const [playedCards, setPlayedCards] = useState(new Stack<CardModel>());
+  const [unplayedCards, setUnplayedCards] = useState(new Stack<CardModel>());
   const themes = [
     "Objects",
     "Food",
@@ -44,21 +44,21 @@ export function Home() {
         }
         setCards(new Stack(exerciseCards));
         setUnplayedCards(shuffleCards(exerciseCards));
-        setPlayedCards(new Stack<Card>());
+        setPlayedCards(new Stack<CardModel>());
       });
   };
 
-  function generateNumbersCards(values: Card[]) {
+  function generateNumbersCards(values: CardModel[]) {
     return values.map(
       (value, index) =>
         ({
           url: index.toString(),
           name: value.name,
-        } as Card)
+        } as CardModel)
     );
   }
 
-  function shuffleCards(data: Card[]) {
+  function shuffleCards(data: CardModel[]) {
     const cardsList = [...data]
       .sort(() => Math.random() - 0.5)
       .map((card) => ({ ...card, id: Math.random() }));
@@ -92,6 +92,7 @@ export function Home() {
   }
 
   function previousCard() {
+    console.log("previous");
     setPrevCardAnimate(true);
     setTimeout(() => {
       setViewAnswer(false);
@@ -164,56 +165,11 @@ export function Home() {
               )}
               <div className="played-cards">
                 {!playedCards.isEmpty() && (
-                  <div>
-                    {playedCards.items.length > 1 && (
-                      <img
-                        className="game-played-card-back"
-                        src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
-                        alt="Card front"
-                      />
-                    )}
-                    <div
-                      className={
-                        prevCardAnimate
-                          ? "game-played-card-container--animate"
-                          : "game-played-card-container"
-                      }
-                    >
-                      <img
-                        className={
-                          prevCardAnimate
-                            ? "game-played-card-img--animate"
-                            : "game-played-card-img"
-                        }
-                        src={process.env.PUBLIC_URL + "/media/card-front.jpg"}
-                        alt="Card front"
-                        onClick={previousCard}
-                      />
-                      {!playedCards.peek().url.includes(".") ? (
-                        <div
-                          className={"game-card-number"}
-                          onClick={previousCard}
-                        >
-                          {playedCards.peek().url}
-                        </div>
-                      ) : (
-                        <img
-                          className={
-                            prevCardAnimate
-                              ? "game-card-img--animate"
-                              : "game-card-img"
-                          }
-                          src={
-                            process.env.PUBLIC_URL +
-                            "/" +
-                            playedCards.peek().url
-                          }
-                          alt={playedCards.peek().url}
-                          onClick={previousCard}
-                        />
-                      )}
-                    </div>
-                  </div>
+                  <Card
+                    card={playedCards.peek()}
+                    animate={prevCardAnimate}
+                    handleClick={previousCard}
+                  ></Card>
                 )}
               </div>
             </div>

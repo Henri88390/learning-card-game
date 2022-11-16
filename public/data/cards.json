@@ -1,4 +1,54 @@
 {
+    "Frequency": [
+        {
+            "name": "zawsze",
+            "english": "always"
+        },
+        {
+            "name": "zwykle",
+            "english": "usually"
+        },
+        {
+            "name": "czesto",
+            "english": "often"
+        },
+        {
+            "name": "czasami",
+            "english": "sometimes"
+        },
+        {
+            "name": "rzadko",
+            "english": "rarely"
+        },
+        {
+            "name": "nigdy",
+            "english": "never"
+        },
+        {
+            "name": "raz na dziennie",
+            "english": "once a day"
+        },
+        {
+            "name": "dwa razy na dziennie",
+            "english": "twice a day"
+        },
+        {
+            "name": "raz na miesiac",
+            "english": "once a week"
+        },
+        {
+            "name": "dwa razy na miesiac",
+            "english": "twice a week"
+        },
+        {
+            "name": "raz na rok",
+            "english": "once a year"
+        },
+        {
+            "name": "dwa razy na rok",
+            "english": "twice a year"
+        }
+    ],
     "Professions": [
         {
             "name": "nauczyciel",
