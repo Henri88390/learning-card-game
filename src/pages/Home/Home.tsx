@@ -23,6 +23,7 @@ export function Home() {
     "Verbs",
     "Weather",
     "Professions",
+    "Frequency",
   ];
 
   useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);
@@ -52,7 +53,7 @@ export function Home() {
     return values.map(
       (value, index) =>
         ({
-          url: index.toString(),
+          english: index.toString(),
           name: value.name,
         } as CardModel)
     );
@@ -92,7 +93,6 @@ export function Home() {
   }
 
   function previousCard() {
-    console.log("previous");
     setPrevCardAnimate(true);
     setTimeout(() => {
       setViewAnswer(false);

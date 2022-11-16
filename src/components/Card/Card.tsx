@@ -35,9 +35,9 @@ export function Card(props: CardProps) {
           alt="Card front"
           onClick={handleClick}
         />
-        {!props.card.url.includes(".") ? (
-          <div className={"game-card-number"} onClick={handleClick}>
-            {props.card.url}
+        {props.card.english ? (
+          <div className={"game-card-english-container"} onClick={handleClick}>
+            <div className="game-card-english-text">{props.card.english}</div>
           </div>
         ) : (
           <img

@@ -52,45 +52,6 @@
   gap: 20px;
 }
 
-.game-played-card-container {
-  width: 120px;
-  cursor: pointer;
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.game-played-card-container--animate {
-  @extend .game-played-card-container;
-  @extend .translate-to-left;
-}
-
-.game-played-card-back {
-  width: 120px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-}
-
-.game-played-card-img {
-  width: 120px;
-  cursor: pointer;
-  border-radius: 10px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.game-played-card-img--animate {
-  @extend .game-played-card-img;
-  @extend .translate-to-left;
-}
-
 .game-bottom-card {
   position: absolute;
   width: 120px;
@@ -126,13 +87,6 @@
 .game-card-img--animate {
   @extend .game-card-img;
   @extend .translate-to-left;
-}
-
-.game-card-number {
-  font-weight: bold;
-  font-size: 60px;
-  position: absolute;
-  cursor: pointer;
 }
 
 .game-button {

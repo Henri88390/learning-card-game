@@ -69,3 +69,14 @@
   @extend .game-card-container;
   @extend .translate-to-right;
 }
+
+.game-card-english-container {
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute; 
+  cursor: pointer;
+}
+
+.game-card-english-text {
+  text-align: center;
+}
