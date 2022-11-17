@@ -25,6 +25,7 @@ export function Home() {
     "Professions",
     "Frequency",
     "Family",
+    "Time",
   ];
 
   useEffect(() => {}, [setCards, setPlayedCards, setUnplayedCards]);

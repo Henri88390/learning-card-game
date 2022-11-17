@@ -1,4 +1,66 @@
 {
+    "Time": [
+        {
+            "name": "rano",
+            "english": "6:00 - 9:00"
+        },
+        {
+            "name": "przed południem",
+            "english": "9:00 - 12:00"
+        },
+        {
+            "name": "w południe",
+            "english": "12:00"
+        },
+        {
+            "name": "po południu",
+            "english": "12:00 - 18:00"
+        },
+        {
+            "name": "wieczorem",
+            "english": "18:00 - 22:00"
+        },
+        {
+            "name": "w nocy",
+            "english": "22:00 - 6:00"
+        },
+        {
+            "name": "dzisiaj",
+            "english": "today"
+        },
+        {
+            "name": "jutro",
+            "english": "yesterday"
+        },
+        {
+            "name": "w poniedziałek",
+            "english": "Monday"
+        },
+        {
+            "name": "we wtorek",
+            "english": "Tuesday"
+        },
+        {
+            "name": "w środę",
+            "english": "Wednesday"
+        },
+        {
+            "name": "w czwartek",
+            "english": "Thursday"
+        },
+        {
+            "name": "w piątek",
+            "english": "Friday"
+        },
+        {
+            "name": "w sobote",
+            "english": "Saturday"
+        },
+        {
+            "name": "w niedzielę",
+            "english": "Sunday"
+        }
+    ],
     "Family": [
         {
             "name": "maż",
@@ -293,6 +355,86 @@
     ],
     "Verbs": [
         {
+            "name": "budzę się",
+            "url": "media/verbs/budze_sie.png"
+        },
+        {
+            "name": "wstaję",
+            "url": "media/verbs/wstaje.png"
+        },
+        {
+            "name": "ubieram się",
+            "url": "media/verbs/ubieram_sie.png"
+        },
+        {
+            "name": "piję kawę",
+            "url": "media/verbs/pije_kawe.png"
+        },
+        {
+            "name": "jem śniadanie",
+            "url": "media/verbs/jem_sniadanie.png"
+        },
+        {
+            "name": "myje zęby",
+            "url": "media/verbs/myje_zeby.png"
+        },
+        {
+            "name": "idę do pracy",
+            "url": "media/verbs/ide_do_pracy.png"
+        },
+        {
+            "name": "pracuję",
+            "url": "media/verbs/pracuje.png"
+        },
+        {
+            "name": "piszę maile",
+            "url": "media/verbs/pisze_maile.png"
+        },
+        {
+            "name": "uczę się polskiego",
+            "url": "media/verbs/ucze_sie_polskiego.png"
+        },
+        {
+            "name": "robię zakupy",
+            "url": "media/verbs/robie_zakupy.png"
+        },
+        {
+            "name": "gotuję obiad",
+            "url": "media/verbs/gotuje_obiad.png"
+        },
+        {
+            "name": "jem obiad",
+            "url": "media/verbs/jem_obiad.png"
+        },
+        {
+            "name": "sprzątam",
+            "url": "media/verbs/sprzatam.png"
+        },
+        {
+            "name": "odpoczywam",
+            "url": "media/verbs/odpoczywam.png"
+        },
+        {
+            "name": "czytam gazetę",
+            "url": "media/verbs/czytam_gazete.png"
+        },
+        {
+            "name": "jem kolację",
+            "url": "media/verbs/jem_kolacje.png"
+        },
+        {
+            "name": "oglądam telewizje",
+            "url": "media/verbs/ogladam_telewizje.png"
+        },
+        {
+            "name": "myję sie",
+            "url": "media/verbs/myje_sie.png"
+        },
+        {
+            "name": "idę spać",
+            "url": "media/verbs/ide_spac.png"
+        },
+        {
             "name": "myśleć",
             "english": "to think"
         },
@@ -359,10 +501,6 @@
         {
             "name": "pływać, pływam",
             "url": "media/verbs/plywac.png"
-        },
-        {
-            "name": "uprawiać, uprawiam",
-            "url": "media/verbs/uprawiac.png"
         },
         {
             "name": "rozumieć, rozumiem",
@@ -780,7 +918,7 @@
             "url": "media/food/banany.jpg"
         },
         {
-            "name": "loby",
+            "name": "lody",
             "url": "media/food/loby.png"
         },
         {
