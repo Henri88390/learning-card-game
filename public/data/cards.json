@@ -181,7 +181,7 @@
             "url": "media/professions/policjant.png"
         },
         {
-            "name": "inzynier",
+            "name": "inżynier",
             "url": "media/professions/inzynier.png"
         },
         {
@@ -248,7 +248,7 @@
         },
         {
             "name": "jest gorąco",
-            "url": "media/weather/jest_goraco.jpg"
+            "english": "x>30°C"
         },
         {
             "name": "świeci słonce",
@@ -268,11 +268,11 @@
         },
         {
             "name": "jest mróz",
-            "url": "media/weather/jest_mroz.jpg"
+            "english": "x<0°C"
         },
         {
             "name": "jest zimno",
-            "url": "media/weather/jest_zimno.png"
+            "english": "0>x>10°C"
         },
         {
             "name": "wiejewiatr",
@@ -280,15 +280,15 @@
         },
         {
             "name": "1 stopień",
-            "url": "media/weather/stopien.png"
+            "english": "1 degree"
         },
         {
             "name": "X2 X3 X4 stopnie",
-            "url": "media/weather/stopnie.png"
+            "english": "X2 X3 X4 degrees"
         },
         {
             "name": "X0 X1 X5 X6 X7 X8 X9 stopni",
-            "url": "media/weather/stopni.png"
+            "english": "X0 X1 X5 X6 X7 X8 X9 degrees"
         }
     ],
     "Verbs": [
@@ -351,10 +351,6 @@
         {
             "name": "uczyć się, uczę się",
             "url": "media/verbs/uczyc_sie.png"
-        },
-        {
-            "name": "uprawiać, uprawiam",
-            "url": "media/verbs/uprawiac.png"
         },
         {
             "name": "śpiewać, śpiewam",
@@ -904,10 +900,6 @@
         {
             "name": "zeszyt",
             "url": "media/objects/zeszyt.jpg"
-        },
-        {
-            "name": "autobus",
-            "url": "media/objects/autobus.png"
         }
     ],
     "Adjectives": [
@@ -937,7 +929,7 @@
         },
         {
             "name": "średniego wzrotu",
-            "url": "media/adjectives/sredniego-wzrotu.jpg"
+            "english": "Average height"
         },
         {
             "name": "stary",
@@ -1007,7 +999,7 @@
         },
         {
             "name": "brązowy",
-            "url": "media/colors/brazowy.jpg"
+            "url": "media/colors/brazowy.png"
         },
         {
             "name": "czarny",
@@ -1032,7 +1024,7 @@
             "url": "media/hobbies/chodzic-do-kina.jpg"
         },
         {
-            "name": "chodzic do restauracji",
+            "name": "chodzić do restauracji",
             "url": "media/hobbies/chodzic-do-restauracji.jpg"
         },
         {
@@ -1109,11 +1101,11 @@
         },
         {
             "name": "tańczyć",
-            "url": "media/hobbies/tańczyc.jpg"
+            "url": "media/hobbies/tanczyc.jpg"
         },
         {
             "name": "upczyć się polskiego",
-            "url": "media/hobbies/upczyc-sie-polskiego.jpg"
+            "english": "To learn Polish"
         },
         {
             "name": "uprawiać sport",
