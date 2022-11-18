@@ -181,7 +181,7 @@
             "english": "once a year"
         },
         {
-            "name": "rutyna",
+            "name": "codziennie",
             "english": "daily"
         }
     ],
@@ -339,6 +339,34 @@
     ],
     "Verbs": [
         {
+            "name": "pisać: piszę",
+            "english": "to write"
+        },
+        {
+            "name": "isć: idę, idziesz, idzie, idziemy, idziecie, idą",
+            "english": "to go (specific moment)"
+        },
+        {
+            "name": "chodzić: chodzę, chodzisz, chodzi, chodzimy, chodzicie, chodzą",
+            "english": "to go (non specific moment)"
+        },
+        {
+            "name": "jechać: jade, jadziesz, jadzie, jadziemy, jadziecie, jada",
+            "english": "to go (vehicule)"
+        },
+        {
+            "name": "chcieć: chcę, chcesz, chce, chcemy, checie, chcą",
+            "english": "want"
+        },
+        {
+            "name": "móc: mogę, mużesz, może, możemy, możecie, mogą",
+            "english": "can"
+        },
+        {
+            "name": "musieć: muszę, musisz, musi, musimy, musicie, muszą",
+            "english": "must"
+        },
+        {
             "name": "budzę się",
             "url": "media/verbs/budze_sie.png"
         },
@@ -423,75 +451,75 @@
             "english": "to think"
         },
         {
-            "name": "kochać, kocham",
+            "name": "kochać: kocham",
             "url": "media/verbs/kochac.png"
         },
         {
-            "name": "lubić, lubię",
+            "name": "lubić: lubię",
             "url": "media/verbs/lubic.png"
         },
         {
-            "name": "być, jestem",
+            "name": "być: jestem",
             "english": "To be"
         },
         {
-            "name": "robić, robię",
+            "name": "robić: robię",
             "english": "To do"
         },
         {
-            "name": "tanczyć, tańczę",
+            "name": "tanczyć: tańczę",
             "url": "media/verbs/tanczyc.jpg"
         },
         {
-            "name": "oglądać, oglądam",
+            "name": "oglądać: oglądam",
             "url": "media/verbs/ogladac.jpg"
         },
         {
-            "name": "płacić, płacę",
+            "name": "płacić: płacę",
             "url": "media/verbs/placic.png"
         },
         {
-            "name": "spotykać, spotykam",
+            "name": "spotykać: spotykam",
             "english": "To meet"
         },
         {
-            "name": "jeżdżić, jeżdżę",
+            "name": "jeżdżić: jeżdżę",
             "url": "media/verbs/jezdzic.png"
         },
         {
-            "name": "czytać, czytam",
+            "name": "czytać: czytam",
             "url": "media/verbs/czytac.png"
         },
         {
-            "name": "grać, gram",
+            "name": "grać: gram",
             "url": "media/verbs/grac.png"
         },
         {
-            "name": "pić, piję",
+            "name": "pić: piję",
             "url": "media/verbs/pic.png"
         },
         {
-            "name": "spacerować, spaceruję",
+            "name": "spacerować: spaceruję",
             "url": "media/verbs/spacerowac.png"
         },
         {
-            "name": "uczyć się, uczę się",
+            "name": "uczyć się: uczę się",
             "url": "media/verbs/uczyc_sie.png"
         },
         {
-            "name": "śpiewać, śpiewam",
+            "name": "śpiewać: śpiewam",
             "url": "media/verbs/spiewac.jpg"
         },
         {
-            "name": "pływać, pływam",
+            "name": "pływać: pływam",
             "url": "media/verbs/plywac.png"
         },
         {
-            "name": "rozumieć, rozumiem",
+            "name": "rozumieć: rozumiem",
             "english": "To understand"
         },
         {
-            "name": "mieć, mam",
+            "name": "mieć: mam",
             "english": "To have"
         }
     ],
