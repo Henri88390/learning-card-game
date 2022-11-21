@@ -129,6 +129,36 @@
             "url": "media/clothes/pasek.png"
         }
     ],
+    "Days of the week": [
+        {
+            "name": "w poniedziałek",
+            "english": "Monday"
+        },
+        {
+            "name": "we wtorek",
+            "english": "Tuesday"
+        },
+        {
+            "name": "w środę",
+            "english": "Wednesday"
+        },
+        {
+            "name": "w czwartek",
+            "english": "Thursday"
+        },
+        {
+            "name": "w piątek",
+            "english": "Friday"
+        },
+        {
+            "name": "w sobote",
+            "english": "Saturday"
+        },
+        {
+            "name": "w niedzielę",
+            "english": "Sunday"
+        }
+    ],
     "Time": [
         {
             "name": "rano",
@@ -159,36 +189,8 @@
             "english": "today"
         },
         {
-            "name": "jutro",
+            "name": "wczoraj",
             "english": "yesterday"
-        },
-        {
-            "name": "w poniedziałek",
-            "english": "Monday"
-        },
-        {
-            "name": "we wtorek",
-            "english": "Tuesday"
-        },
-        {
-            "name": "w środę",
-            "english": "Wednesday"
-        },
-        {
-            "name": "w czwartek",
-            "english": "Thursday"
-        },
-        {
-            "name": "w piątek",
-            "english": "Friday"
-        },
-        {
-            "name": "w sobote",
-            "english": "Saturday"
-        },
-        {
-            "name": "w niedzielę",
-            "english": "Sunday"
         }
     ],
     "Family": [
