@@ -1,4 +1,134 @@
 {
+    "Clothes": [
+        {
+            "name": "sportowe",
+            "english": "sport clothes"
+        },
+        {
+            "name": "buty",
+            "english": "shoes"
+        },
+        {
+            "name": "zimowe",
+            "english": "winter clothes"
+        },
+        {
+            "name": "letnie",
+            "english": "summer clothes"
+        },
+        {
+            "name": "eleganckie",
+            "english": "elegant clothes"
+        },
+        {
+            "name": "bielizna",
+            "english": "underwear"
+        },
+        {
+            "name": "koszulka",
+            "url": "media/clothes/jestkoszulka_pochmurno.png"
+        },
+        {
+            "name": "kapelusz",
+            "url": "media/clothes/kapelusz.png"
+        },
+        {
+            "name": "dres",
+            "url": "media/clothes/dres.png"
+        },
+        {
+            "name": "adidasy",
+            "url": "media/clothes/adidasy.png"
+        },
+        {
+            "name": "spodnie",
+            "url": "media/clothes/spodnie.png"
+        },
+        {
+            "name": "slipy",
+            "url": "media/clothes/slipy.png"
+        },
+        {
+            "name": "czapka",
+            "url": "media/clothes/czapka.png"
+        },
+        {
+            "name": "krawat",
+            "url": "media/clothes/krawat.png"
+        },
+        {
+            "name": "marynarka",
+            "url": "media/clothes/marynarka.png"
+        },
+        {
+            "name": "sweter",
+            "url": "media/clothes/sweter.png"
+        },
+        {
+            "name": "sandaly",
+            "url": "media/clothes/sandaly.png"
+        },
+        {
+            "name": "kurtka",
+            "url": "media/clothes/kurtka.png"
+        },
+        {
+            "name": "szalik",
+            "url": "media/clothes/szalik.png"
+        },
+        {
+            "name": "kazaki",
+            "url": "media/clothes/kazaki.png"
+        },
+        {
+            "name": "płaszcz",
+            "url": "media/clothes/plaszcz.png"
+        },
+        {
+            "name": "rękawiczki",
+            "url": "media/clothes/rekawiczki.png"
+        },
+        {
+            "name": "majtki",
+            "url": "media/clothes/majtki.png"
+        },
+        {
+            "name": "koszula",
+            "url": "media/clothes/koszula.png"
+        },
+        {
+            "name": "trampki",
+            "url": "media/clothes/trampki.png"
+        },
+        {
+            "name": "szorty",
+            "url": "media/clothes/szorty.png"
+        },
+        {
+            "name": "skarpety",
+            "url": "media/clothes/skarpety.png"
+        },
+        {
+            "name": "spódnica",
+            "url": "media/clothes/spodnica.png"
+        },
+        {
+            "name": "stanik",
+            "url": "media/clothes/stanik.png"
+        },
+        {
+            "name": "sukienka",
+            "url": "media/clothes/sukienka.png"
+        },
+        {
+            "name": "szpilki",
+            "url": "media/clothes/szpilki.png"
+        },
+        {
+            "name": "pasek",
+            "url": "media/clothes/pasek.png"
+        }
+    ],
     "Time": [
         {
             "name": "rano",
@@ -351,7 +481,7 @@
             "english": "to go (non specific moment)"
         },
         {
-            "name": "jechać: jade, jadziesz, jadzie, jadziemy, jadziecie, jada",
+            "name": "jechać: jade, jadziesz, jadzie, jadziemy, jadziecie, jadą",
             "english": "to go (vehicule)"
         },
         {
@@ -359,7 +489,7 @@
             "english": "want"
         },
         {
-            "name": "móc: mogę, mużesz, może, możemy, możecie, mogą",
+            "name": "móc: mogę, możesz, może, możemy, możecie, mogą",
             "english": "can"
         },
         {
@@ -447,7 +577,7 @@
             "url": "media/verbs/ide_spac.png"
         },
         {
-            "name": "myśleć",
+            "name": "myśleć: myślę, myślisz, myśli, myślimy, myślicie, myślą",
             "english": "to think"
         },
         {
