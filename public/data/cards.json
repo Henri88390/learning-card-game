@@ -1,4 +1,50 @@
 {
+    "Directions": [
+        {
+            "name": "przed (+ narzędnik)",
+            "english": "in front of/ before"
+        },
+        {
+            "name": "za (+ narzędnik)",
+            "english": "behind"
+        },
+        {
+            "name": "pod (+ narzędnik)",
+            "english": "below"
+        },
+        {
+            "name": "nad (+ narzędnik)",
+            "english": "above"
+        },
+        {
+            "name": "między (+ narzędnik) ... na ...",
+            "english": "between ... and ..."
+        },
+        {
+            "name": "po lewej",
+            "english": "on the left"
+        },
+        {
+            "name": "po prawej",
+            "english": "on the right"
+        },
+        {
+            "name": "na środku",
+            "english": "in the middle of"
+        },
+        {
+            "name": "na scianie",
+            "english": "on the wall"
+        },
+        {
+            "name": "na ziemi",
+            "english": "on the floor"
+        },
+        {
+            "name": "na suficie",
+            "english": "on the ceiling"
+        }
+    ],
     "Clothes": [
         {
             "name": "sportowe",
@@ -1084,8 +1130,100 @@
     ],
     "Objects": [
         {
-            "name": "autobus",
-            "url": "media/objects/autobus.png"
+            "name": "umywalka",
+            "url": "media/objects/umywalka.png"
+        },
+        {
+            "name": "lodówka",
+            "url": "media/objects/lodowka.png"
+        },
+        {
+            "name": "dywan",
+            "url": "media/objects/dywan.png"
+        },
+        {
+            "name": "kuchenka",
+            "url": "media/objects/kuchenka.png"
+        },
+        {
+            "name": "szafka",
+            "url": "media/objects/szafka.png"
+        },
+        {
+            "name": "prysznic",
+            "url": "media/objects/prysznic.png"
+        },
+        {
+            "name": "kwiatek",
+            "url": "media/objects/kwiatek.png"
+        },
+        {
+            "name": "zegar",
+            "url": "media/objects/zegar.png"
+        },
+        {
+            "name": "sofa",
+            "url": "media/objects/sofa.png"
+        },
+        {
+            "name": "regał",
+            "url": "media/objects/regal.png"
+        },
+        {
+            "name": "pralka",
+            "url": "media/objects/pralka.png"
+        },
+        {
+            "name": "lustro",
+            "url": "media/objects/lustro.png"
+        },
+        {
+            "name": "wanna",
+            "url": "media/objects/wanna.png"
+        },
+        {
+            "name": "buirko",
+            "url": "media/objects/biurko.png"
+        },
+        {
+            "name": "komoda",
+            "url": "media/objects/komoda.png"
+        },
+        {
+            "name": "łóżko",
+            "url": "media/objects/lozko.png"
+        },
+        {
+            "name": "stół",
+            "url": "media/objects/stol.png"
+        },
+        {
+            "name": "fotel",
+            "url": "media/objects/fotel.png"
+        },
+        {
+            "name": "lampa",
+            "url": "media/objects/lampa.png"
+        },
+        {
+            "name": "półka",
+            "url": "media/objects/polka.png"
+        },
+        {
+            "name": "szafa",
+            "url": "media/objects/szafa.png"
+        },
+        {
+            "name": "telewizor",
+            "url": "media/objects/telewizor.png"
+        },
+        {
+            "name": "wazon",
+            "url": "media/objects/wazon.png"
+        },
+        {
+            "name": "krzesło",
+            "url": "media/objects/krzeslo.png"
         },
         {
             "name": "bilet",
@@ -1185,6 +1323,14 @@
         }
     ],
     "Adjectives": [
+        {
+            "name": "tani",
+            "english": "cheap"
+        },
+        {
+            "name": "drogi",
+            "english": "expensive"
+        },
         {
             "name": "gruby",
             "url": "media/adjectives/gruby.png"
