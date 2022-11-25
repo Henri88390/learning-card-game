@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Card, ThemeCard } from "../../components";
-import { CardModel } from "../../models/card";
-import Stack from "../../models/stack.ts";
+import { CardModel, Stack } from "../../models";
 import "./Home.scss";
 
 export function Home() {

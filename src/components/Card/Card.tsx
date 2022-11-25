@@ -1,5 +1,5 @@
 import React from "react";
-import { CardModel } from "../../models/card";
+import { CardModel } from "../../models";
 import "./Card.scss";
 
 export interface CardProps {
