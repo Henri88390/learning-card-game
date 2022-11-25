@@ -1128,6 +1128,72 @@
             "url": "media/food/ziemniaki.jpg"
         }
     ],
+    "Vehicules": [
+        {
+            "name": "samochód",
+            "url": "media/vehicules/samochod.png"
+        },
+        {
+            "name": "balon",
+            "url": "media/vehicules/balon.png"
+        },
+        {
+            "name": "łódka",
+            "url": "media/vehicules/lodka.png"
+        },
+        {
+            "name": "tramwaj",
+            "url": "media/vehicules/tramwaj.png"
+        },
+        {
+            "name": "motor",
+            "url": "media/vehicules/motor.png"
+        },
+        {
+            "name": "pociąg",
+            "url": "media/vehicules/pociag.png"
+        },
+        {
+            "name": "samolot",
+            "url": "media/vehicules/samolot.png"
+        },
+        {
+            "name": "kajak",
+            "url": "media/vehicules/kajak.png"
+        },
+        {
+            "name": "rower",
+            "url": "media/vehicules/rower.png"
+        },
+        {
+            "name": "taksówka",
+            "url": "media/vehicules/taksowka.png"
+        },
+        {
+            "name": "helikopter",
+            "url": "media/vehicules/helikopter.png"
+        },
+        {
+            "name": "metro",
+            "url": "media/vehicules/metro.png"
+        },
+        {
+            "name": "hulajnoga",
+            "url": "media/vehicules/hulajnoga.png"
+        },
+        {
+            "name": "bus",
+            "url": "media/vehicules/bus.png"
+        },
+        {
+            "name": "statek",
+            "url": "media/vehicules/statek.png"
+        },
+        {
+            "name": "autobus",
+            "url": "media/vehicules/autobus.png"
+        }
+    ],
     "Objects": [
         {
             "name": "umywalka",
@@ -1196,6 +1262,14 @@
         {
             "name": "stół",
             "url": "media/objects/stol.png"
+        },
+        {
+            "name": "żaglówka",
+            "url": "media/objects/zaglowka.png"
+        },
+        {
+            "name": "cieżarówka",
+            "url": "media/objects/ciezarowka.png"
         },
         {
             "name": "fotel",
@@ -1298,10 +1372,6 @@
             "url": "media/objects/parasol.jpg"
         },
         {
-            "name": "samochód",
-            "url": "media/objects/samochod.jpg"
-        },
-        {
             "name": "słonce",
             "url": "media/objects/slonce.jpg"
         },
@@ -1312,10 +1382,6 @@
         {
             "name": "stół",
             "url": "media/objects/stol.jpg"
-        },
-        {
-            "name": "tramwaj",
-            "url": "media/objects/tramwaj.jpg"
         },
         {
             "name": "zeszyt",

@@ -14,6 +14,7 @@ export function Home() {
   const [playedCards, setPlayedCards] = useState(new Stack<CardModel>());
   const [unplayedCards, setUnplayedCards] = useState(new Stack<CardModel>());
   const themes = [
+    "Vehicules",
     "Directions",
     "Objects",
     "Food",
